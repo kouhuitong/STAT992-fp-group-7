@@ -18,3 +18,4 @@ A shell script [2_get_SNP_data.sh](scripts/2_get_SNP_data.sh) is created to read
 
 Run `./scripts/2_get_SNP_data.sh` to reproduce.
 
+## task 3
