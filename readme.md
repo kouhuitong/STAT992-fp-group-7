@@ -19,3 +19,9 @@ A shell script [2_get_SNP_data.sh](scripts/2_get_SNP_data.sh) is created to read
 Run `./scripts/2_get_SNP_data.sh` to reproduce.
 
 ## task 3
+
+The `3_build_individual_genomes.sh` script that returns an alignment of the DNA seqences of the DNA sequences of all strains for a chromosome of interest and for a genomic range of interest.
+
+It takes 3 arguments: chromosome (in 1-5,C or M), starting base position (e.g. 1,2,...), ending base position.
+
+Under `scripts/` folder, run `./3_build_individual_genomes.sh 1 20 40` for example.
