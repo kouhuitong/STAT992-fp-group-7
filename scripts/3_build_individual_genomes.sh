@@ -29,8 +29,9 @@ do
 strain_name=$(echo $(basename $strain) | sed -E 's/.*quality_variant_(.*).txt/\1/' )
 #echo $strain_name #used for debugging
 
-#get the corresponding pairs
-pair=$(cat $strain | tail -n +$start |head -n $length | cut -f4 | awk '{print}' ORS='')
+#get the corresponding pairs for only the chromosome of interest
+#pair=$(cat $strain | tail -n +$start |head -n $length | cut -f4 | awk '{print}' ORS='')
+pair=$(cat $strain | awk -v chr="chr$chrom" '$2 ~ chr' |tail -n +$start | head -n $length | cut -f4 | awk '{print}' ORS='')
 
 echo "$strain_name $pair" >> alignments/$filename
 done
