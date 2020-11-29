@@ -1,0 +1,460 @@
+HTTP/1.1 200 OK
+Date: Mon, 23 Nov 2020 14:10:21 GMT
+Server: Apache/2.2.3 (Linux/SUSE)
+X-Powered-By: PHP/5.2.5
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+<html>
+<head><title>Salk Arabidopsis thaliana 1,001 Genomes : Data Center & Download</title>
+<meta name="description" content="Salk Institute Arabidopsis thaliana 1,001 Genomes, NSF Award 0929402.">
+</head>
+<body bgcolor="#ffffff" link=5566AA vlink=9966AA text="#5566AA">
+
+<div id =" header" style =" width:1000px;margin:0 auto">
+<tAble width=1000 bgcolor=CCDDC8 background=/Images/AtFlowerSmall.jpg>
+<tr>
+<td width=10> &nbsp; </td>
+
+<td width=500>
+<font size=5 color=5566AA><b>Salk Arabidopsis<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>1,001</i> Genomes
+</td><td width=490 valign=bottom align=right>
+<font size=3 color=5566AA>NSF Award 0929402
+</td>
+<td width=5> &nbsp; 
+</td></tr></tAble>
+</div>
+<div id = "menu" style = "width:1000px;margin:0 auto"><p>
+<taBle width=1000 bgcolor=CCDDC8 background=/Images/AtG1001BG.png style={font-family:Arial;font-size:13px;color:5566AA }>
+<tr align=left>
+<td width=745> &nbsp; 
+<a href=/atg1001/index.php>Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=/atg1001/accessions.php>Accessions</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=/atg1001/3.0/gebrowser.php target=_blank>Genome Browser</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=/atg1001/facilities.php>Facilities</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=/atg1001/collaborators.php>Collaborators</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=/atg1001/download.php>Download</a>&nbsp;&nbsp;&nbsp;&nbsp;
+</td><td width=255 align=right><a href=/atg1001/login.php>Login</a>&nbsp;&nbsp;&nbsp;
+<a href=http://www.1001genomes.org>MPI 1,001</a></td>
+<td width=5> &nbsp; </td>
+
+</tr></taBle>
+</p></div><div id =" content" style =" width:1000px;margin:0 auto"><tABLe width=1000 style={font-family:Arial;font-size:12px;color:5566AA }>
+<tr valign=top><td width=1000 bgcolor=e8ffff>
+<tabLe width=1000 bgcolor=e8ffff style={font-family:Arial;font-size:12px;color:5566AA }>
+<tr>
+<td width=10>   </td>
+<td width=800>
+<br><font color=5566AA>
+<b><u>Data Sharing Policy:</u></b>
+<P style="margin-left:28px">Please read the <a href=Data_Sharing_Policy.pdf>data sharing policy in PDF</a> and the <a href=WellcomeReport0303.pdf>Ft. Lauderdale Data Sharing Agreement</a>.
+<br><br>
+The 1001 Arabidopsis Genomes project has released data in a pre-publication format
+from the Salk Institute, WTCHG, MPI, and GMI. This is provided freely to be used by
+anyone, but the 1001 Arabidopsis Genomes consortium have requested that the
+scientific ethics of other groups publishing on this pre-publication data are
+respected. This is outlined in detail in the Fort Lauderdale agreement; in brief,
+small scale analysis, eg, the analysis of a single locus is an expected use of the
+data which can be published on without any expectation of coordination. In contrast,
+large scale, genomewide analysis is expected to be either coordinated with the 1001
+Arabidopsis Genomes consortium in some manner or published after initial papers.
+More details on the reasoning for this and details are given in the Fort Lauderdale
+document.<P>
+<b><u>Data Dowloading Readme:</u></b>
+<P style="margin-left:28px">Please read the <a href=data/README.txt>README</a>.
+<br><br>
+<P>
+<b><u>Genomes Finished : </u></b>
+<p>
+<table width=770 style={font-family:Arial;font-size:12px;color:45569A }>
+<tH>Accession</th><tH>Stock ID</th><tH>Sequenced by</th><tH>Platform</th><tH>Status</th><th>Alt name</th>  
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Aa_0>Aa_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76428&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76428</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6600</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Abd_0>Abd_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76429&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76429</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS932</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ag_0>Ag_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76430&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76430</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22630</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ak_1>Ak_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76431&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76431</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6602</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Alst_1>Alst_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76432&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76432</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22550</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Altai_5>Altai_5</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76433&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76433</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>548AV</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Amel_1>Amel_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76434&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76434</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22526</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=An_1>An_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76435&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76435</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22626</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ang_0>Ang_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76436&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76436</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6605</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Anholt_1>Anholt_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76437&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76437</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22313</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ann_1>Ann_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76438&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76438</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22520</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Anz_0>Anz_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76439&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76439</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>N/A</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Appt_1>Appt_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76440&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76440</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22528</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ba_1>Ba_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76441&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76441</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS952</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Baa_1>Baa_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76442&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76442</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22529</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bch_1>Bch_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76444&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76444</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6609</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bd_0>Bd_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76445&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76445</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS962</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Benk_1>Benk_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76447&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76447</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22530</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ber>Ber</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76448&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76448</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS3109</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bg_2>Bg_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28069
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28069
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28069</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bik_1>Bik_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76449&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76449</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>541AV</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bl_1>Bl_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76450&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76450</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS968</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bla_1>Bla_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76451&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76451</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS970</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Boot_1>Boot_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76452&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76452</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22551</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bor_1>Bor_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76453&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76453</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22590</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bor_4>Bor_4</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76454&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76454</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22591</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Br_0>Br_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76455&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76455</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22628</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bs_1>Bs_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6627</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bsch_0>Bsch_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76457&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76457</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6630</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Bu_0>Bu_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76458&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76458</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6632</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Buckhorn_Pass>Buckhorn_Pass</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28123
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28123
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28123</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=CIBC_17>CIBC_17</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28154
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28154
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28154</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=CIBC_5>CIBC_5</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22602</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ca_0>Ca_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76459&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76459</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6658</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Cal_0>Cal_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76460&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76460</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1062</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Cerv_1>Cerv_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76462&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76462</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22523</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Chat_1>Chat_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76463&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76463</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22521</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Chi_0>Chi_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76464&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76464</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1072</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Cnt_1>Cnt_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76467&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76467</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1635</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Co>Co</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28161
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28161
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28161</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Co_1>Co_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76468&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76468</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6669</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Com_1>Com_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76469&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76469</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22522</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Cvi_0>Cvi_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28198
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28198
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28198</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Da1_12>Da1_12</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76470&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76470</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS917</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Db_1>Db_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76471&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76471</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6678</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Dem_4>Dem_4</a></td><td></td><td>Salk</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Di_G>Di_G</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76472&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76472</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS910</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Dja_1>Dja_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76473&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76473</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>534AV</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Do_0>Do_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76474&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76474</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6683</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Dr_0>Dr_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76475&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76475</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6684</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=DraIII_1>DraIII_1</a></td><td></td><td>Salk</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=DraII_1>DraII_1</a></td><td></td><td>Salk</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Dra_0>Dra_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76476&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76476</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6685</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Duk>Duk</a></td><td></td><td>Salk</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Durh_1>Durh_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76477&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76477</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22552</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ei_2>Ei_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76478&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76478</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22616</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=El_0>El_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76479&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76479</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6694</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ema_1>Ema_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76480&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76480</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1637</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=En_1>En_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28233
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28233
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28233</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=En_2>En_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76481&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76481</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1138</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=En_D>En_D</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76482&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76482</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS920</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Er_0>Er_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76483&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76483</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6698</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Es_0>Es_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76484&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76484</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1144</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Est>Est</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76485&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76485</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6173</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Et_0>Et_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76486&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76486</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6702</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Etna_2>Etna_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76487&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76487</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>N/A</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Fi_0>Fi_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76488&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76488</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6704</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Fr_2>Fr_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76489&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76489</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6708</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ga_0>Ga_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76490&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76490</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22634</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ge_0>Ge_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28276
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28276
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28276</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Gel_1>Gel_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76492&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76492</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22533</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Gie_0>Gie_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76493&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76493</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6720</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Gifu_2>Gifu_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76494&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76494</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS3963</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Got_22>Got_22</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28307
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28307
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28307</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Got_7>Got_7</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22608</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Gr_1>Gr_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76496&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76496</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1198</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Gre_0>Gre_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76497&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76497</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6729</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Gu_0>Gu_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76498&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76498</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22617</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Gy_0>Gy_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22631</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=HR_10>HR_10</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28355
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28355
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28355</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=HR_5>HR_5</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76514&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76514</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22596</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=HSm>HSm</a></td><td></td><td>Salk</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ha_0>Ha_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76500&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76500</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6733</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Hau_0>Hau_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76509&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76509</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1220</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Hey_1>Hey_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76511&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76511</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22534</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Hh_0>Hh_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76512&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76512</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6735</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Hn_0>Hn_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76513&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76513</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6739</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Hod>Hod</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28351
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28351
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28351</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Hs_0>Hs_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76515&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76515</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6905</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=In_0>In_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1238</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Is_0>Is_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76517&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76517</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1240</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Je_0>Je_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76518&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76518</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6742</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Jl_3>Jl_3</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76519&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76519</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6745</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Jm_0>Jm_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76520&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76520</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6748</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kar_1>Kar_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76522&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76522</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>531AV</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kas_1>Kas_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76523&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76523</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22638</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kas_2>Kas_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28379
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28379
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28379</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kb_0>Kb_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76524&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76524</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6753</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kelsterbach_4>Kelsterbach_4</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76525&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76525</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6041</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kent>Kent</a></td><td></td><td>Salk</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kil_0>Kil_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76526&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76526</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1270</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kin_0>Kin_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76527&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76527</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22654</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kl_5>Kl_5</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76528&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76528</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6761</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Knox_10>Knox_10</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28406
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28406
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28406</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Knox_18>Knox_18</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76530&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76530</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22567</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ko_2>Ko_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76531&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76531</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1288</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Koln>Koln</a></td><td></td><td>Salk</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kondara>Kondara</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76532&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76532</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>Cs22651</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kro_0>Kro_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76533&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76533</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6766</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Krot_0>Krot_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76534&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76534</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS3886</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kyoto>Kyoto</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76535&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76535</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS3964</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Kz_9>Kz_9</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76537&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76537</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22607</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=LL_0>LL_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28470
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28470
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28470</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=La_0>La_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76538&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76538</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1298</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Lan_0>Lan_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76539&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76539</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6768</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Le_0>Le_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76540&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76540</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1308</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Li_2:1>Li_2:1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76541&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76541</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6772</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Lip_0>Lip_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76542&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76542</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1336</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Lisse>Lisse</a></td><td></td><td>Salk</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Litva>Litva</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76543&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76543</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS925</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Lm_2>Lm_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76545&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76545</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6784</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Lp2_2>Lp2_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76546&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76546</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22594</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Lp2_6>Lp2_6</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28480
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28480
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28480</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Mc_0>Mc_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76548&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76548</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1362</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Mh_0>Mh_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76550&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76550</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6792</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Mir_0>Mir_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76551&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76551</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1378</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Mnz_0>Mnz_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76552&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76552</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1370</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ms_0>Ms_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76555&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76555</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22655</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Mv_0>Mv_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76556&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76556</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1386</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Mz_0>Mz_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76557&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76557</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22636</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=NC_6>NC_6</a></td><td></td><td>Salk</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=NFA_10>NFA_10</a></td><td></td><td>Salk</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=NFA_8>NFA_8</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22598</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=N13>N13</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td></td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Nc_1>Nc_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76559&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76559</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1388</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Neo_6>Neo_6</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76560&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76560</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>540AV</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Nok_3>Nok_3</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76562&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76562</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22643</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Np_0>Np_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76563&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76563</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6806</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Nw_0>Nw_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76564&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76564</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6811</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Nz_1>Nz_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22661</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ob_0>Ob_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76566&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76566</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6816</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Old_1>Old_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76567&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76567</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1426</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Or_0>Or_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76568&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76568</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6822</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ove_0>Ove_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76569&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76569</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6823</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=PHW_2>PHW_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28603
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28603
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28603</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=PHW_34>PHW_34</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28634
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28634
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28634</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Per_1>Per_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76571&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76571</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1444</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Pi_0>Pi_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76572&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76572</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6832</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Pla_0>Pla_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76573&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76573</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1458</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Pna_17>Pna_17</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76575&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76575</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22570</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Pog_0>Pog_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76576&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76576</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6842</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Pro_0>Pro_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76577&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76577</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22649</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Pt_0>Pt_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6843</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Pu2_23>Pu2_23</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76579&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76579</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22593</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Pu2_7>Pu2_7</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76580&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76580</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22592</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Pu2_8>Pu2_8</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28658
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28658
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28658</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Qar_8a>Qar_8a</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76581&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76581</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>549AV</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=RRS_7>RRS_7</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76593&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76593</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22564</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=RRs_10>RRs_10</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76592&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76592</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22565</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ra_0>Ra_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76582&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76582</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22632</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ragl_1>Ragl_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76583&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76583</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22558</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Rak_2>Rak_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28668
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28668
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28668</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Rd_0>Rd_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76584&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76584</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1482</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ren_1>Ren_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28674
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28674
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28674</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ren_11>Ren_11</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28677
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28677
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28677</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Rennes_1>Rennes_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22610</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Rhen_1>Rhen_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22536</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Rld_1>Rld_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76588&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76588</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS913</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Rmx_A02>Rmx_A02</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76589&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76589</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22568</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Rmx_A180>Rmx_A180</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28690
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28690
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28690</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Rome_1>Rome_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76590&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76590</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22524</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Rou_0>Rou_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76591&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76591</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6847</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Rubeznhoe_1>Rubeznhoe_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76594&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76594</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS927</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Sap_0>Sap_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76595&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76595</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1506</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Se_0>Se_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76597&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76597</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22646</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Seattle_0>Seattle_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76598&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76598</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6188</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Sei_0>Sei_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76599&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76599</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1504</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Sf_1>Sf_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28730
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28730
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28730</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Sg_1>Sg_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76600&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76600</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6858</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Si_0>Si_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76601&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76601</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1524</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Sorbo>Sorbo</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22653</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Sp_0>Sp_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76603&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76603</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1530</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Sq_1>Sq_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28746
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28746
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28746</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Sq_8>Sq_8</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76604&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76604</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22601</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Stw_0>Stw_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76605&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76605</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1538</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Su_0>Su_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76606&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76606</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1540</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Sus_1>Sus_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76607&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76607</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>533AV</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ta_0>Ta_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76608&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76608</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6867</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Tamm_2>Tamm_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76610&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76610</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22604</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Tamm_27>Tamm_27</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28756
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28756
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28756</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Tha_1>Tha_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'></a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22537</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ting_1>Ting_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76612&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76612</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22549</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Tol_0>Tol_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76614&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76614</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS8020</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ts_1>Ts_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76615&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76615</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22647</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ts_5>Ts_5</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28776
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28776
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28776</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Tscha_1>Tscha_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76616&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76616</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22518</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Tu_0>Tu_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76617&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76617</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1566</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Tul_0>Tul_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76618&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76618</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1570</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ty_0>Ty_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76619&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76619</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1572</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Uk_1>Uk_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76620&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76620</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1574</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Uod_1>Uod_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76621&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76621</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22612</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Uod_7>Uod_7</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28794
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28794
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28794</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Utrecht>Utrecht</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76622&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76622</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6150</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Van_0>Van_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76623&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76623</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6884</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ven_1>Ven_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76624&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76624</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22538</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Vind_1>Vind_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76625&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76625</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22560</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Wa_1>Wa_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76626&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76626</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6885</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Wc_1>Wc_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76627&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76627</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6886</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Wei_0>Wei_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76628&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76628</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22622</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Westkar_4>Westkar_4</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76629&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76629</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>N/A</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Wil_1>Wil_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS28819
+&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS28819
+</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS28819</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Wl_0>Wl_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76630&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76630</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS6920</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Ws_2>Ws_2</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76631&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76631</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22659</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Wt_5>Wt_5</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76632&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76632</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22637</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Yo_0>Yo_0</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76633&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76633</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS1622</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Zal_1>Zal_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76634&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76634</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>536AV</td></tr>
+<tr align=center><td><a href=/atg1001/data/Salk/accession.php?id=Zdr_1>Zdr_1</a></td><td><a href='http://arabidopsis.org/servlets/Search?type=general&search_action=detail&method=1&show_obsolete=F&name=CS76635&sub_type=seed&SEARCH_EXACT=4&SEARCH_CONTAINS=1'>CS76635</a></td><td>Salk</td><td>Illumina</td><td>Released</td><td>CS22588</td></tr>
+
+
+
+<tr align=center><td>Agu-1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Bak-2</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Bak-7</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Cdm-0</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Del-10</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Dog-4</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Don-0</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Ey15-2</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Fei-0</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>HKT2</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE102</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE104</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE106</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE107</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE111</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE112</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE119</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE120</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE127</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE130</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE134</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE138</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE150</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE152</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE153</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE163</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE169</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE173</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE181</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE212</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE213</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE216</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE21</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE226</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE228</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE29</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE33</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE36</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE49</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE50</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE60</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE61</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE63</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE70</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE71</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE72</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE73</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE75</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE79</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE7</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE91</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE92</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE93</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE97</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>ICE98</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Istisu-1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Kastel-1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Koch-1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Lag2</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Leo-1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Lerik1-3</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Mer-6</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Nemrut-1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Nie1-2</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Ped-0</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Pre-6</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Qui-0</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Rue3-1-31</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Sha</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Star-8</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>TueSB30-3</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Tuescha9</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>TueV13</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>TueWa1-2</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Vash-1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Vie-0</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>WalhaesB4</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Xan-1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Yeg-1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+
+<tr align=center><td>C24</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Kro-0</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Ler-1</td><td></td><td>MPI</td><td>Illumina</td><td>Released</td></tr>
+
+<tr align=center><td>Eil-0</td><td></td><td>UNIL</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Lc-0</td><td></td><td>UNIL</td><td>Illumina</td><td>Released</td></tr>
+<tr align=center><td>Sav-0</td><td></td><td>UNIL</td><td>Illumina</td><td>Released</td></tr>
+
+</table>
+<br><br>
+<b><u>Data Download: </u></b>
+<p><UL>
+<LI><a href=/atg1001/data/Salk/index.php>Salk</a>
+<LI><a href=/atg1001/data/MPI>MPI</a>
+<LI><a href=/atg1001/data/JGI>JGI</a>
+
+</ul>
+<br>
+</td></tr></table>
+
+</td></tr></table>
+<div>
+<div id =" footer" style =" width:1000px;margin:0 auto"><P>
+<tabLE width=1000 bgcolor='#dff8f8' style={font-family:Arial;font-size:12px;color:'#5566AA'; }>
+<tr valign=top><td width=1000 align=right>
+
+<b>Salk Institute Genomics Analysis Laboratory</b><br>
+10010 N. Torrey Pines Road La Jolla, CA 92037
+
+</td></tr></tabLE>
+</div>
+
+</body></html>
