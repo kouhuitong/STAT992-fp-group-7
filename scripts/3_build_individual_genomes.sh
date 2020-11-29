@@ -11,7 +11,7 @@ start=$2
 ending=$3
 
 #count the number of the strains
-cnt=$(ls  data/quality* | wc -l)
+#cnt=$(ls  data/quality* | wc -l)
 #calculate the length of the cut
 length=$(expr $ending - $start)
 
@@ -20,7 +20,7 @@ s=$(printf "%06d\n" $start) #opadding
 e=$(printf "%06d\n" $ending)
 filename="chr${chrom}_${s}_to_${e}.phy"
 
-echo "$cnt $length" > alignments/$filename 
+#echo "$cnt $length" > alignments/$filename 
 
 #going to loop to get the corresponding base pairs of each strain
 for strain in $(ls data/quality_variant_*)
@@ -62,7 +62,7 @@ echo "$strain_name $pair" >> alignments/$filename
 fi
 
 done
-
-
+cnt=$(cat alignments/$filename |wc -l)
+echo "$cnt $length"$'\n'"$(cat alignments/$filename)" > alignments/$filename 
 
 
