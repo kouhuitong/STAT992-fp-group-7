@@ -34,11 +34,29 @@ strain_name=$(echo $(basename $strain) | sed -E 's/.*quality_variant_(.*).txt/\1
 #pair=$(cat $strain | awk -v chr="chr$chrom" '$2 ~ chr' |tail -n +$start | head -n $length | cut -f4 | awk '{print}' ORS='')
 #check if corresponding pairs exist
 exist_factor=$(cat $strain |awk -v chr="chr$chrom" '$2 ~ chr' |awk '$3 >= start && $3 <= ending { print $0 ;}' start="$start" ending="$ending"  | wc -l)
-echo $exist_factor
-if [ "$exist_factor" -ne 0 ]
+#echo $exist_factor
+if [ $exist_factor -ne 0 ]
    then
-pair=$(cat $strain | awk -v chr="chr$chrom" '$2 ~ chr' | awk '$3 >= start && $3 <= ending  { print $0 ;}' start="$start" ending="$ending" | cut -f4 | awk '{print}' ORS='') 
+#pair=$(cat $strain | awk -v chr="chr$chrom" '$2 ~ chr' | awk '$3 >= start && $3 <= ending  { print $0 ;}' start="$start" ending="$ending" | cut -f4 | awk '{print}' ORS='') 
 
+#check the absent index
+for index in $(eval echo "{$start..$ending}");
+do
+    #debugging strings
+    #echo $strain
+    #echo $index
+    ind_checker=$(cat $strain | awk -v chr="chr$chrom" '$2 ~ chr'| awk -v ind="$index" '{ if($3 == ind ) {print $0 ;} }' | wc -l );
+    #echo $index_checker
+    if [ $ind_checker -gt 0 ];
+    then echo $(cat $strain | awk -v chr="chr$chrom" '$2 ~ chr'| awk -v ind="$index" '{ if($3 == ind ) {print $0 ;} }' ) >> out.dat ;
+    else echo "- - - - - - - - -" >> out.dat ;
+    fi;    
+done; 
+
+pair=$(cat out.dat | cut -d' '  -f4 | awk '{print}' ORS='')
+rm out.dat
+
+echo "$strain_name $pair" 
 echo "$strain_name $pair" >> alignments/$filename
 
 fi
