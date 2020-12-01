@@ -18,17 +18,17 @@ block_num=$3
 #    block_sz=$4
 #fi
 
-# Here the set block length is 500
+# Here the set block length is 100,000
 length_chrom=$(tail -n +1 data/TAIR10_chr$chrom.fas | wc -c) # extract length of chromosome
 
 for block in $(seq 1 $block_num); do # loop based on number of blocks
     if [[ $block -eq 1 ]]
     then 
         block_begin=$start
-        block_end=$(expr "$start" + 499)
+        block_end=$(expr "$start" + 99999)
     else
         block_begin=$(expr "$block_end" + 1)
-        block_end=$(expr "$block_begin" + 499)
+        block_end=$(expr "$block_begin" + 99999)
     fi
     if [[ $block_end -gt $length_chrom ]]
     then 
