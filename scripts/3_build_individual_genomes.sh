@@ -3,6 +3,11 @@
 #run shell script in the main directory
 #<usage> ./3_build_individual_genomes.sh chromosome starting_base_position ending_base_position
 
+if [ $# != 3 ] ; then
+echo "USAGE: ./scripts/3_build_individual_genomes.sh <chromosome> <starting_base_position> <ending_base_position>" 1>&2
+exit 1;
+fi
+
 #set the chromosome
 chrom=$1
 #set the starting position
@@ -20,7 +25,8 @@ s=$(printf "%06d\n" $start) #opadding
 e=$(printf "%06d\n" $ending)
 filename="chr${chrom}_${s}_to_${e}.phy"
 
-#echo "$cnt $length" > alignments/$filename 
+# Create a blank alignment file "$filename"
+: > alignments/$filename
 
 #going to loop to get the corresponding base pairs of each strain
 for strain in $(ls data/quality_variant_*)
@@ -56,13 +62,17 @@ done;
 pair=$(cat out.dat | cut -d' '  -f4 | awk '{print}' ORS='')
 rm out.dat
 
-echo "$strain_name $pair" 
+# This line for debug
+# echo "$strain_name $pair" 
+
 echo "$strain_name $pair" >> alignments/$filename
 
 fi
 
 done
 cnt=$(cat alignments/$filename |wc -l)
-echo "$cnt $length"$'\n'"$(cat alignments/$filename)" > alignments/$filename 
+
+# Insert the first line
+sed -i "1i $cnt $length" alignments/$filename
 
 
