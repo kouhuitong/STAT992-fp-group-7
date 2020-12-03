@@ -28,8 +28,11 @@ filename="chr${chrom}_${s}_to_${e}.phy"
 # Create a blank alignment file "$filename"
 : > alignments/$filename
 
+tail -n +2 data_sub/TAIR10_chr$chrom.fas | awk '{print}' ORS='' > chromosome_sub #chromosome for indexing
+
 #going to loop to get the corresponding base pairs of each strain
-for strain in $(ls data/quality_variant_*)
+#for strain in $(ls data/quality_variant_*)
+for strain in $(ls data_sub/quality_variant_*)
 do
 #get the strain name
 strain_name=$(echo $(basename $strain) | sed -E 's/.*quality_variant_(.*).txt/\1/' )
@@ -55,13 +58,18 @@ do
     #echo $index_checker
     if [ $ind_checker -gt 0 ];
     then cat int2 >> int3 ;
-    else echo "-" >> int3 ;
+    #else echo "-" >> int3 ;
+    else 
+        cut -c$index ./chromosome_sub >> int3 ; # prints the nucleotide from the chromosome at index position
     fi; 
 done; 
 
 pair=$(cat int3 | awk '{print}' ORS='')
 rm int2
 rm int3
+
+# In case there are no strain-specific nucleotide differences
+# else pair=$(cut -c$start-$ending ./chromosome_sub) 
 
 # This line for debug
 echo "$strain_name $pair" >> alignments/$filename
