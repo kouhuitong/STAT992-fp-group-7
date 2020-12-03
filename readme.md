@@ -19,9 +19,21 @@ A shell script [2_get_SNP_data.sh](scripts/2_get_SNP_data.sh) is created to read
 Run `./scripts/2_get_SNP_data.sh` to reproduce.
 
 ## task 3
-
-The `3_build_individual_genomes.sh` script that returns an alignment of the DNA seqences of the DNA sequences of all strains for a chromosome of interest and for a genomic range of interest.
+The [3_build_individual_genomes.sh](scripts/3_build_individual_genomes.sh) script  returns an alignment of the DNA seqences of the DNA sequences of all strains for a chromosome of interest and for a genomic range of interest.
 
 It takes 3 arguments: chromosome (in 1-5,C or M), starting base position (e.g. 1,2,...), ending base position.
 
 Under `scripts/` folder, run `./3_build_individual_genomes.sh 1 20 40` for example.
+
+## task 4
+The shell script [4_alignment_blocks.sh](scripts/4_alignment_blocks.sh) extracts *non-overlapping* and *consecutive* alignments from a chromosome and loops over the script from task 3 `3_build_individual_genomes.sh`. The script produces output files (same as in script 3) into the `alignments/` directory. Each file contains blocks of a set length and base positions from each strain.
+
+It takes 3 arguments: 
+- chromosome (in 1-5,C or M)
+- starting position index in base pairs (e.g. 1,2,...)
+- number of blocks to produce
+
+Run the shell script from the main directory to reproduce (1 300000 5 is an example):
+```
+bash scripts/4_alignment_blocks.sh 1 300000 5
+```
