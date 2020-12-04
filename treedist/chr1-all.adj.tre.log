@@ -1,0 +1,16 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Mac OS X 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    eeb-fvfxt0uzhv2h.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree -t chr1-all.tre -rf_adj -T AUTO -quiet -pre chr1-all.adj.tre
+Seed:    437125 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Dec  4 09:34:48 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading tree(s) file chr1-all.tre ...
+5 tree(s) loaded (0 rooted and 5 unrooted)
+Using hash_map
+Computing Robinson-Foulds distance...
+Robinson-Foulds distances printed to chr1-all.adj.tre.rfdist
+Date and Time: Fri Dec  4 09:34:48 2020
