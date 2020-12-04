@@ -37,6 +37,8 @@ for block in $(seq 1 $block_num); do # loop based on number of blocks
     fi
     echo "$block_begin - $block_end bp for block $block"
     scripts/3_build_individual_genomes.sh $chrom $block_begin $block_end
+    # Change filename
+    mv alignments/chr${chorm}_${block_begin}_to_${block_end}.phy alignments/chr${chorm}_${block_begin}.phy
     if [[ $block_end -eq $length_chrom ]]
     then  
         break
