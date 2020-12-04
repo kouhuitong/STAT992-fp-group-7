@@ -38,36 +38,31 @@ do
 strain_name=$(echo $(basename $strain) | sed -E 's/.*quality_variant_(.*).txt/\1/' )
 #echo $strain_name #used for debugging
 
-#get the corresponding pairs for only the chromosome of interest
-#pair=$(cat $strain | tail -n +$start |head -n $length | cut -f4 | awk '{print}' ORS='')
-#pair=$(cat $strain | awk -v chr="chr$chrom" '$2 ~ chr' |tail -n +$start | head -n $length | cut -f4 | awk '{print}' ORS='')
 #check if corresponding pairs exist
 cat $strain |awk -v chr="chr$chrom" '$2 ~ chr' |awk '$3 >= start && $3 <= ending { print $0 ;}' start="$start" ending="$ending" > int1
 exist_factor=$(cat int1 | wc -l)
-if [ $exist_factor -ne 0 ];then
-#pair=$(cat $strain | awk -v chr="chr$chrom" '$2 ~ chr' | awk '$3 >= start && $3 <= ending  { print $0 ;}' start="$start" ending="$ending" | cut -f4 | awk '{print}' ORS='') 
+if [[ $exist_factor -ne 0 ]]
+then
+    #pair=$(cat $strain | awk -v chr="chr$chrom" '$2 ~ chr' | awk '$3 >= start && $3 <= ending  { print $0 ;}' start="$start" ending="$ending" | cut -f4 | awk '{print}' ORS='') 
+    #check the absent index
+    for index in $(eval echo "{$start..$ending}"); do
+        #debugging strings
+        #echo $strain
+        #echo $index
+        cat int1 | awk -v ind="$index" '{ if($3 == ind ) {print $5 ;} }' > int2 # if position matches change position in strain file, then print nucleotide
+        ind_checker=$(cat int2 | wc -l )
+        #echo $index_checker
+        if [[ $ind_checker -gt 0 ]]
+        then 
+            cat int2 >> int3
+        else 
+            cut -c$index ./chromosome_sub >> int3 # prints the nucleotide from the chromosome at index position
+        fi 
+    done
 
-#check the absent index
-for index in $(eval echo "{$start..$ending}");
-do
-    #debugging strings
-    #echo $strain
-    #echo $index
-    cat int1 | awk -v ind="$index" '{ if($3 == ind ) {print $4 ;} }' > int2
-    ind_checker=$(cat int2 | wc -l );
-    #echo $index_checker
-    if [ $ind_checker -gt 0 ];
-    then cat int2 >> int3 ;
-    #else echo "-" >> int3 ;
-    else 
-        cut -c$index ./chromosome_sub >> int3 ; # prints the nucleotide from the chromosome at index position
-    fi; 
-done; 
-
-pair=$(cat int3 | awk '{print}' ORS='')
-rm int2
-rm int3
-
+    pair=$(cat int3 | awk '{print}' ORS='')
+    rm int2
+    rm int3
 # In case there are no strain-specific nucleotide differences
 else pair=$(cut -c$start-$ending ./chromosome_sub) 
 
@@ -85,5 +80,4 @@ cnt=$(cat alignments/$filename |wc -l)
 sed -i "1i $cnt $length" alignments/$filename
 
 rm int1
-
-
+rm chromosome_sub
