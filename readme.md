@@ -33,7 +33,8 @@ It takes 3 arguments:
 - starting position index in base pairs (e.g. 1,2,...)
 - number of blocks to produce
 
-Run the shell script from the main directory to reproduce (1 300000 5 is an example):
+Run the shell script from the main directory to reproduce (1 3000000 30 is an example):
 ```
-bash scripts/4_alignment_blocks.sh 1 300000 5
+bash scripts/4_alignment_blocks.sh 1 3000000 30
 ```
+A test version of alignment blocks is found in `alignments/`, looking at chromosome 1 and includes 5 strains and 3 short blocks of 500 bp starting at 3000001 bp.
