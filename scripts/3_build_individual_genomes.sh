@@ -18,7 +18,7 @@ ending=$3
 #count the number of the strains
 #cnt=$(ls  data/quality* | wc -l)
 #calculate the length of the cut
-length=$(expr $ending - $start)
+length=$(expr $ending - $start + 1)
 
 #set the output filename
 s=$(printf "%08d\n" $start) #opadding
@@ -69,12 +69,14 @@ rm int2
 rm int3
 
 # In case there are no strain-specific nucleotide differences
-# else pair=$(cut -c$start-$ending ./chromosome_sub) 
+else pair=$(cut -c$start-$ending ./chromosome_sub) 
 
-# This line for debug
-echo "$strain_name $pair" >> alignments/$filename
+
+
 
 fi
+
+echo "$strain_name $pair" >> alignments/$filename
 
 done
 cnt=$(cat alignments/$filename |wc -l)
