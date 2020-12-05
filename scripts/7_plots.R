@@ -1,5 +1,5 @@
 
-dist=t(read.table('../treedist/chr1-all.adj.tre.rfdist',sep = " ",skip = 1))
+dist=read.table('../treedist/chr1-all.tre.rfdist',sep = " ",skip = 1)
 d=density(dist,na.rm = T)
 d$y[d$x < 0] <- 0
 plot(d)
