@@ -28,10 +28,18 @@ based on extrapolating from your 30-block analysis.
 
 - Do trees from consecutive blocks tend to be more similar to each other (at smaller distance) than trees from randomly chosen blocks   from the same chromosome?  We would expect so if blocks were small, due to less "recombination"  between neighboring blocks than between blocks at opposing ends of the chromosome.
 
-  [[/images/7a.png]]
+  
 
+  ![alt text](https://github.com/UWMadison-computingtools-2020/fp-group-7/blob/master/images/7a.png)
+
+  
+  
   The observed tree distances are smaller than expected if the 2 trees were chosen at random uniformly.
-
-  [[/images/7a.png]]
+  
+  
+  
+  ![alt text](https://github.com/UWMadison-computingtools-2020/fp-group-7/blob/master/images/7b.png)
+  
+  
 
 This plot show that the distance of Randomly Chosen Blocks is larger than that of  Consecutive Blocks.
