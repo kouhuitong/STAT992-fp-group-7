@@ -6,7 +6,7 @@
 chrom=$(ls -d $(ls iqtree/*.treefile | head -1) | xargs basename | cut -d _ -f1)
 
 # Concatonate all .treefile files into one and move to treedist/
-touch treedist/$chrom-all.tre
+: > treedist/$chrom-all.tre
 
 for file in $(ls iqtree/$chrom*.treefile)
 do
