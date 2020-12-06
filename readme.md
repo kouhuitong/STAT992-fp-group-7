@@ -58,3 +58,13 @@ Run the shell script from the main directory to reproduce:
 ```
 bash scripts/6_tree_distances.sh
 ```
+
+## task7
+
+The R code  [7_test_for_tree_similarity.R](scripts/7_test_for_tree_similarity.R)  use R to generate 2 plots 
+
+- To answer 7(a): plot the distribution of *n*-3-*D*/2, and overlay the distribution of distances obtained in step 6(a). 
+
+- To answer 7(b): use a plot to overlay two distributions: the distribution of distances *D* between consecutive trees as obtained in step 6(b), and the distribution of distances between trees chosen randomly from the blocks of the same chromosome, which we have from step 6(a). Again, we choose to display the distributions of similarities *n*-3-*D*/2 instead of the the distributions of *D* itself. 
+
+Before running the R script, change the `.rfdist` filenames if needed.
