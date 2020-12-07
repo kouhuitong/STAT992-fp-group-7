@@ -6,7 +6,7 @@ See:
 This readme is used as a brief introduction to the project and the intruction of running code scripts. **So, please always check this readme before running codes.** And for the details of each script as well as our practice, please go to another document [report.md](report.md).
 
 ## task 1
-A shell script [1_get_refernece_genome.sh](scripts/1_get_refernece_genome.sh) is created to download 7 chromosomes: chromosomes 1 though 5, the mitochondrial DNA ("chrM") and the chloroplast DNA ("chrC"), into the directory [data](data).
+A shell script [1_get_reference_genome.sh](scripts/1_get_reference_genome.sh) is created to download 7 chromosomes: chromosomes 1 though 5, the mitochondrial DNA ("chrM") and the chloroplast DNA ("chrC"), into the directory `data/`.
 
 Run the shell script from the main directory to reproduce: 
 ```
@@ -18,7 +18,7 @@ Run the shell script from the main directory to reproduce:
 See [report](report.md) for details of this task.
 
 ## task 2
-A shell script [2_get_SNP_data.sh](scripts/2_get_SNP_data.sh) is created to read the web info in the "Genomes Finished" section from the [website](http://signal.salk.edu/atg1001/download.php), so as to get all of the strain names. With a `for` loop structure of `wget` command, 216 files named `quality_variant_<strain_name>.txt` would be downloaded into the directory [data](data).
+A shell script [2_get_SNP_data.sh](scripts/2_get_SNP_data.sh) is created to read the web info in the "Genomes Finished" section from the [website](http://signal.salk.edu/atg1001/download.php), so as to get all of the strain names. With a `for` loop structure of `wget` command, 216 files named `quality_variant_<strain_name>.txt` would be downloaded into the directory `data/`.
 
 Run the shell script from the main directory to reproduce: 
 ```
@@ -62,7 +62,7 @@ This command will not overwrite any alignment in `alignments/`, which are 5 bloc
 See [report](report.md) for details of this task.
 
 ## task 5
-The shell script [5_build_tree.sh](scripts/5_build_tree.sh) is modified and expanded based on [4_alignment_blocks.sh](scripts/4_alignment_blocks.sh), takeing 4 arguments: 
+The shell script [5_build_iqtree.sh](scripts/5_build_iqtree.sh) is modified and expanded based on [4_alignment_blocks.sh](scripts/4_alignment_blocks.sh), takeing 4 arguments: 
 - chromosome (in 1-5,C or M)
 - starting position index in base pairs (e.g. 1,2,...)
 - number of blocks to produce
@@ -85,7 +85,7 @@ The expected output files in `treedist/` are:
 - `chrX-all.tre`: concontanated file of all trees in `iqtree/`
 - `chrX-all.tre.rfdist`: distance between pairs of unrooted trees, where the first column is the Tree index starting at zero, and the matrix of RF distances ordered by Tree similarly to the first column. 
 -  `chrX-all.adj.tre.rfdist`: file containing the distances between all pairs of adjacent trees (i.e. trees on adjacent lines in the file).
-- `chrX-all.adj.tre.log`: log file from the adjacent tree comparison. More information on file output can be found [here](stepinstructions.md).
+- `chrX-all.adj.tre.log`: log file from the adjacent tree comparison. More information on file output can be found [here](stepsinstructions.md).
 
 **Since the `iqtree/` directory contains 30 iqtree treefiles from the 30 blocks starting at 300000 with the length of 100000 on all 216 strains and `chr1` chromosome**, we can run the shell script from the main directory to reproduce:
 ```

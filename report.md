@@ -2,7 +2,7 @@
 This report is used to record the details of each script mentioned in [readme](readme.md) as well as our practice concentrating on the **30 blocks, with starting position at 300,000 and length of 100,000 base pairs, of 216 strains for chromosome 1**.
 
 ## task 1
-[1_get_refernece_genome.sh](scripts/1_get_refernece_genome.sh) firstly creates the directory [data/](data) (ignore if existing) and download 7 chromosomes: chromosomes 1 though 5, the mitochondrial DNA ("chrM") and the chloroplast DNA ("chrC"), into the directory `data/` by `wget` command. Totally 7 `.fas` files  are downloaded by running this script and downloading time depends on network situation. You can check [here](documents/task1.md) for the list of these files with their size. Because we focus on the **chromosome 1** in our practice, only this chromosome `.fas` file is kept in `data/`.
+[1_get_reference_genome.sh](scripts/1_get_reference_genome.sh) firstly creates the directory `data/` (ignore if existing) and download 7 chromosomes: chromosomes 1 though 5, the mitochondrial DNA ("chrM") and the chloroplast DNA ("chrC"), into the directory `data/` by `wget` command. Totally 7 `.fas` files  are downloaded by running this script and downloading time depends on network situation. You can check [here](documents/task1.txt) for the list of these files with their size. Because we focus on the **chromosome 1** in our practice, only this chromosome `.fas` file is kept in `data/`.
 
 So, to reproduce our practice in task 1, run
 ```
@@ -10,7 +10,7 @@ bash ./scripts/1_get_reference_genome.sh
 ```
 
 ## task 2
-[2_get_SNP_data.sh](scripts/2_get_SNP_data.sh) firstly reads the web info in the "Genomes Finished" section from the [website](http://signal.salk.edu/atg1001/download.php) into an intermediate file [web.txt](documents/web.txt) and then gets all of the strain names with a link from it by `grep` command. Totally 217 strains are extracted and there is [one](http://signal.salk.edu/atg1001/data/Salk/quality_variant_Utrecht.txt) whose link fails. So, with a `for` loop structure of `wget` command, 216 files named `quality_variant_<strain_name>.txt` would be downloaded into the directory [data](data). You can check [here](documents/task2.md) for the list of these files with their size.
+[2_get_SNP_data.sh](scripts/2_get_SNP_data.sh) firstly reads the web info in the "Genomes Finished" section from the [website](http://signal.salk.edu/atg1001/download.php) into an intermediate file [web.txt](documents/web.txt) and then gets all of the strain names with a link from it by `grep` command. Totally 217 strains are extracted and there is [one](http://signal.salk.edu/atg1001/data/Salk/quality_variant_Utrecht.txt) whose link fails. So, with a `for` loop structure of `wget` command, 216 files named `quality_variant_<strain_name>.txt` would be downloaded into the directory `data/`. You can check [here](documents/task2.txt) for the list of these files with their size.
 
 To reproduce our practice in task 2, run
 ```
@@ -48,7 +48,7 @@ For testing, `bash ./script/4_alignment_blocks.sh 1 4000000 5 500` was run on 5 
 
 
 ## task 5
-The shell script [5_build_tree.sh](scripts/5_build_tree.sh) takes in 4 arguments:
+The shell script [5_build_iqtree.sh](scripts/5_build_iqtree.sh) takes in 4 arguments:
 - chromosome (in 1-5,C or M)
 - starting position index in base pairs (e.g. 1,2,...)
 - number of blocks to produce
@@ -56,7 +56,7 @@ The shell script [5_build_tree.sh](scripts/5_build_tree.sh) takes in 4 arguments
 
 It is modified and expanded based on [4_alignment_blocks.sh](scripts/4_alignment_blocks.sh), by a loop going through every `.phy` in the directory `alignments/` to establish an iqtree and output the `.treefile` into `iqtree/` for each. The output `.treefile` would keep the same name as its corresponding alignment. 
 
-The `iqtree` command in [5_build_tree.sh](scripts/5_build_tree.sh) uses the following options:
+The `iqtree` command in [5_build_iqtree.sh](scripts/5_build_iqtree.sh) uses the following options:
 - '-T AUTO': To automatically choose the number of threads appropriate for your machine;
 - '-pre': Use the same basename as corresponding `.treefile` to be prefix for outputs (in the main directory);
 - '--no-log --no-iqtree -djc': To suppress the creation of the '.log', '.iqtree', '.bionj', and '.mldist' files;
@@ -64,7 +64,7 @@ The `iqtree` command in [5_build_tree.sh](scripts/5_build_tree.sh) uses the foll
 
 For testing, `bash ./script/4_alignment_blocks.sh 1 4000000 5 500` was run on 5 strains, which generated 5 consercutive block of length 500bp and starting at 4000000 and then build an iqtree for each. It took about 22 minutes to finish and its outputs are now in `alignments/`.
 
-In our practice, we hope to get the **30 blocks, with starting position at 300,000 and length of 100,000 base pairs, of 216 strains for chromosome 1**. The command `bash ./script/4_alignment_blocks.sh 1 300000 30` should have been run on our platform but its estimated running time may reach several days. So, we tried to achieve this by 6480 (due to 30 blocks x 216 strains = 6480) parallel jobs running on HTC (high throughout computer) cluster and it took about 19.5 hours to finish (including queueing time). And its output are now in `/iqtree/` directory.
+In our practice, we hope to get the **30 blocks, with starting position at 300,000 and length of 100,000 base pairs, of 216 strains for chromosome 1**. The command `bash ./script/4_alignment_blocks.sh 1 300000 30` should have been run on our platform but its estimated running time may reach several days. So, we tried to achieve this by 6480 (due to 30 blocks \* 216 strains = 6480) parallel jobs running on HTC (high throughout computer) cluster and it took about 19.5 hours to finish (including queueing time). And its output are now in `/iqtree/` directory.
 
 ## task 6
 The shell script [6_tree_distances.sh](scripts/6_tree_distances.sh) uses IQ-TREE to calculate the Robinson-Foulds (RF) distance between pairs of (unrooted) trees and between pairs of trees from consective tree in `iqtree/` from task 5.
