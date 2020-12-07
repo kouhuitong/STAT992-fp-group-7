@@ -8,28 +8,18 @@ chrom=$1
 start=$2
 #set number of blocks to produce
 block_num=$3
-#optional, set block size
-#if [[ $4 -eq 0 ]]
-#then 
-#    declare -i block_sz
-#    block_sz=499
-#    echo "No block length given, default is 500"
-#else
-#    block_sz=$4
-#fi
 
-# Here the set block length is 500
-#length_chrom=$(tail -n +1 data/TAIR10_chr$chrom.fas | wc -c) # extract length of chromosome
-length_chrom=$(tail -n +1 data_sub/TAIR10_chr$chrom.fas | wc -c) # extract length of chromosome
+# Here the set block length is 10000
+length_chrom=$(tail -n +1 data/TAIR10_chr$chrom.fas | wc -c) # extract length of chromosome 
 
 for block in $(seq 1 $block_num); do # loop based on number of blocks
     if [[ $block -eq 1 ]]
     then 
         block_begin=$start
-        block_end=$(expr "$start" + 499)
+        block_end=$(expr "$start" + 9999)
     else
         block_begin=$(expr "$block_end" + 1)
-        block_end=$(expr "$block_begin" + 499)
+        block_end=$(expr "$block_begin" + 9999)
     fi
     if [[ $block_end -gt $length_chrom ]]
     then 
