@@ -13,11 +13,11 @@ start=$2
 #set number of blocks to produce
 block_num=$3
 #set the block size, optionally (100000 by default)
-if[[ $# -eq 4 ]]
+if [[ $# -ne 4 ]]
 then
-    block_length=$4
-else
     block_length=100000
+else
+    block_length=$4
 fi
 
 # Here the set block length is 10000
@@ -40,7 +40,9 @@ for block in $(seq 1 $block_num); do # loop based on number of blocks
     # Call the script for task 3
     scripts/3_build_individual_genomes.sh $chrom $block_begin $block_end
     # Change filename
-    mv alignments/chr${chorm}_${block_begin}_to_${block_end}.phy alignments/chr${chorm}_${block_begin}.phy
+    s=$(printf "%08d\n" $block_begin)
+    e=$(printf "%08d\n" $block_end)
+    mv alignments/chr${chrom}_${s}_to_${e}.phy alignments/chr${chrom}_${s}.phy
     if [[ $block_end -eq $length_chrom ]]
     then  
         break
