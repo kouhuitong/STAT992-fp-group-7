@@ -1,0 +1,10 @@
+Aa_0	chr1	92	A	C	3	1	1	1
+Aa_0	chr1	98	T	A	11	1	1	1
+Aa_0	chr1	110	G	T	32	6	1	1
+Aa_0	chr1	214	G	A	40	19	1	1
+Aa_0	chr1	253	T	C	40	21	1	1
+Aa_0	chr1	429	G	A	40	23	1	1
+Aa_0	chr1	502	T	C	40	15	1	1
+Aa_0	chr1	508	T	C	40	15	1	1
+Aa_0	chr1	643	G	A	40	23	1	1
+Aa_0	chr1	645	C	A	40	25	1	1
