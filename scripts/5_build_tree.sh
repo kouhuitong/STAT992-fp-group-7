@@ -14,8 +14,7 @@ do
     #   '-pre': Use the basename as prefix for outputs (in the main directory);
     #   '--no-log --no-iqtree -djc': To suppress the creation of the '.log', '.iqtree', '.bionj', and '.mldist' files;
     #   '-quiet': To run quietly without printing information to the screen);
-    #   '-fast': To make the search much faster
-    iqtree -s $file -m HKY+G -T AUTO -pre $filename --no-log --no-iqtree -djc -quiet -fast
+    iqtree -s $file -m HKY+G -T AUTO -pre $filename --no-log --no-iqtree -djc -quiet
     # Move the output '.treefile' from main directory to 'iqtree/'
     mv $filename.treefile iqtree/$filename.treefile
     # Remove other output files in main directory
